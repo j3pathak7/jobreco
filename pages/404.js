@@ -8,7 +8,7 @@ const NotFound = () => {
           <div className="max-w-md">
             <div className="text-5xl font-dark font-bold my-6">404</div>
             <p className="text-2xl md:text-3xl font-light leading-normal my-6">
-              Sorry we couldn't find this page.
+              Sorry we couldn&apos;t find this page.
             </p>
 
             <Link href={"/"}>
