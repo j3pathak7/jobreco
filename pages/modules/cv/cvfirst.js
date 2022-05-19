@@ -25,7 +25,7 @@ const cvfirst = () => {
                 required=""
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
               >
                 First name
@@ -41,7 +41,7 @@ const cvfirst = () => {
                 required=""
               />
               <label
-                for="floating_last_name"
+                htmlFor="floating_last_name"
                 className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
               >
                 Last name
@@ -60,7 +60,7 @@ const cvfirst = () => {
                 required=""
               />
               <label
-                for="floating_phone"
+                htmlFor="floating_phone"
                 className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
               >
                 Phone number
@@ -76,7 +76,7 @@ const cvfirst = () => {
                 required=""
               />
               <label
-                for="floating_company"
+                htmlFor="floating_company"
                 className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
               >
                 Email
@@ -94,7 +94,7 @@ const cvfirst = () => {
                 required=""
               />
               <label
-                for="floating_address"
+                htmlFor="floating_address"
                 className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
               >
                 Address
