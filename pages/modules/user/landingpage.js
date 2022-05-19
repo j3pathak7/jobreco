@@ -22,22 +22,22 @@ const landingpage = () => {
         </p>
       </div>
       <div className=" card my-8 mx-32">
-        <div class="p-6 max-w-m bg-white rounded-lg border border-gray-200 shadow-md">
+        <div className="p-6 max-w-m bg-white rounded-lg border border-gray-200 shadow-md">
           <a href="#">
-            <h5 class=" text-2xl font-bold tracking-tight text-gray-900">
+            <h5 className=" text-2xl font-bold tracking-tight text-gray-900">
               Nodejs Development
             </h5>
             <h6 className="mt-2 text-lg text-gray-700 font-medium">
               Ghar Chalo
             </h6>
           </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             Here are the biggest enterprise technology acquisitions of 2021 so
             far, in reverse chronological order.
           </p>
           <a
             href="#"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-sky-900 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-sky-900 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             View Details
           </a>
