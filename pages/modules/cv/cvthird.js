@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const cvsecond = () => {
+const cvthird = () => {
   return (
     <div>
       <div className="text-sky-90 text-center text-4xl m-8">
@@ -12,10 +12,18 @@ const cvsecond = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <Link href={"/modules/cv/cvfirst"}>
+        <Link href={"/modules/cv/cvsecond"}>
           <button
             type="button"
-            className="text-yellow-400 bg-gradient-to-r from-sky-400 via-sky-700 to-sky-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 shadow-lg shadow-sky-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+            className="text-yellow-400 bg-gradient-to-r from-sky-400 via-sky-700 to-sky-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 shadow-lg shadow-sky-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center m-4"
+          >
+            Back
+          </button>
+        </Link>
+        <Link href={"/modules/cv/cvfinal"}>
+          <button
+            type="button"
+            className="text-yellow-400 bg-gradient-to-r from-sky-400 via-sky-700 to-sky-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 shadow-lg shadow-sky-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center m-4"
           >
             Build
           </button>
@@ -25,4 +33,4 @@ const cvsecond = () => {
   );
 };
 
-export default cvsecond;
+export default cvthird;
