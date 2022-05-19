@@ -15,7 +15,7 @@ const cvfirst = () => {
       <div>
         <form>
           <div className="grid xl:grid-cols-2 xl:gap-6">
-            <div className="group relative z-0 ml-24 m-10 w-4/5">
+            <div className="group relative z-0 mx-auto m-10 sm:mx-auto w-4/5">
               <input
                 type="text"
                 name="floating_first_name"
@@ -31,7 +31,7 @@ const cvfirst = () => {
                 First name
               </label>
             </div>
-            <div className="group relative z-0 mr-24 m-10 w-4/5">
+            <div className="group relative z-0 mx-auto m-10 w-4/5">
               <input
                 type="text"
                 name="floating_last_name"
@@ -49,7 +49,7 @@ const cvfirst = () => {
             </div>
           </div>
           <div className="grid xl:grid-cols-2 xl:gap-6">
-            <div className="group relative z-0 ml-24 m-10 w-4/5">
+            <div className="group relative z-0 mx-auto m-10 sm:mx-auto w-4/5">
               <input
                 type="tel"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
@@ -66,7 +66,7 @@ const cvfirst = () => {
                 Phone number
               </label>
             </div>
-            <div className="group relative z-0 mr-28 m-10 w-4/5">
+            <div className="group relative z-0 mx-auto m-10 w-4/5">
               <input
                 type="text"
                 name="email"
@@ -84,7 +84,7 @@ const cvfirst = () => {
             </div>
           </div>
           <div className="grid xl:grid-cols-1">
-            <div className="group relative z-0 mx-auto my-10 my-10 w-4/5">
+            <div className="group relative z-0 mx-auto sm:mx-auto my-10 w-4/5">
               <input
                 type="text"
                 name="address"

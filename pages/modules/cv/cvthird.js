@@ -11,6 +11,83 @@ const cvthird = () => {
           100%
         </div>
       </div>
+
+      <div>
+        <div>
+          <form>
+            <div className="grid xl:grid-cols-1">
+              <div className="group relative z-0 mx-auto sm:mx-auto my-10 w-4/5">
+                <input
+                  type="text"
+                  name="workexperiences"
+                  id="workexperiences"
+                  className="peer block w-full appearance-none border-0 border-b-2 border-gray-300 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-sky-900 focus:outline-none focus:ring-0"
+                  placeholder=" "
+                  required=""
+                />
+                <label
+                  htmlFor="floating_address"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
+                >
+                  Work Experiences
+                </label>
+              </div>
+
+              <div className="group relative z-0 mx-auto sm:mx-auto my-10 w-4/5">
+                <input
+                  type="text"
+                  name="education"
+                  id="education"
+                  className="peer block w-full appearance-none border-0 border-b-2 border-gray-300 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-sky-900 focus:outline-none focus:ring-0"
+                  placeholder=" "
+                  required=""
+                />
+                <label
+                  htmlFor="floating_address"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
+                >
+                  Education
+                </label>
+              </div>
+
+              <div className="group relative z-0 mx-auto sm:mx-auto my-10 w-4/5">
+                <input
+                  type="text"
+                  name="certificates"
+                  id="certificate"
+                  className="peer block w-full appearance-none border-0 border-b-2 border-gray-300 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-sky-900 focus:outline-none focus:ring-0"
+                  placeholder=" "
+                  required=""
+                />
+                <label
+                  htmlFor="floating_address"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
+                >
+                  Other Certificates
+                </label>
+              </div>
+
+              <div className="group relative z-0 mx-auto sm:mx-auto my-10 w-4/5">
+                <input
+                  type="text"
+                  name="skills"
+                  id="skills"
+                  className="peer block w-full appearance-none border-0 border-b-2 border-gray-300 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-sky-900 focus:outline-none focus:ring-0"
+                  placeholder=" "
+                  required=""
+                />
+                <label
+                  htmlFor="floating_address"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-900 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-sky-900"
+                >
+                  Skills
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
       <div className="flex justify-center">
         <Link href={"/modules/cv/cvsecond"}>
           <button
