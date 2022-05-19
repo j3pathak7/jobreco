@@ -23,24 +23,28 @@ const landingpage = () => {
       </div>
       <div className=" card my-8 mx-32">
         <div className="p-6 max-w-m bg-white rounded-lg border border-gray-200 shadow-md">
-          <a href="#">
-            <h5 className=" text-2xl font-bold tracking-tight text-gray-900">
-              Nodejs Development
+          <a href="./knock">
+            <h5 className=" text-4xl font-bold tracking-tight text-gray-900">
+              Required Position
             </h5>
             <h6 className="mt-2 text-lg text-gray-700 font-medium">
-              Ghar Chalo
+              Undergrad Major
             </h6>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-          <a
-            href="#"
-            className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-sky-900 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
-          >
-            View Details
-          </a>
+          <div className="mb-3 grid grid-cols-2">
+            <h6 className=" font-normal text-gray-500">
+              Languages worked with
+            </h6>
+            <h6 className="font-normal text-gray-900 text-right">Salary</h6>
+          </div>
+          <div className="flex justify-center">
+            <a
+              href="./knock"
+              className="text-yellow-400 bg-gradient-to-r from-sky-400 via-sky-700 to-sky-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 shadow-lg shadow-sky-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center w-1/5"
+            >
+              Apply
+            </a>
+          </div>
         </div>
       </div>
     </>
