@@ -8,7 +8,7 @@ export default function Home() {
             Join us Now
           </div>
           <div className="mt-4 self-center text-xl sm:text-sm text-gray-800">
-            Enter your credentials to look post jobs
+            Enter your credentials to post jobs
           </div>
 
           <div className="mt-10">
