@@ -19,7 +19,9 @@ const Navbar = () => {
             <a className="mr-5 hover:text-gray-300">CV Maker</a>
           </Link>
           <Link href={"/test"}>
-            <a className="mr-5 hover:text-gray-300">Take a test</a>
+            <a className="mr-5 hover:text-gray-300 cursor-not-allowed">
+              Take a test
+            </a>
           </Link>
         </nav>
         <Link href={"/modules/organization/signup"}>
